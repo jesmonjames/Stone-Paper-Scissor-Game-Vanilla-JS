@@ -16,7 +16,7 @@ body{
   height:100vh;
 }
 main{
-  min-width:400px;
+  min-width:350px;
   min-height:300px;
   background-color:white;
   border-radius:0.5rem;
@@ -55,7 +55,7 @@ main{
   height:3rem;
 }
 .btnCommon{
-  width:87px;
+  width:70px;
   padding:.5rem;
   margin:1rem;
   border:none;
@@ -90,6 +90,7 @@ cursor:pointer;
 #winner{
   position:absolute;
   bottom:1.5rem;
+  font-size:10px;
 }
 #game{
   display: none;
@@ -99,7 +100,7 @@ cursor:pointer;
   padding:2rem;
   position:absolute;
   top: 8rem;
-    right: 5rem;
+  right: 3.3rem;
   background: #606c88;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
